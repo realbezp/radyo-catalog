@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-24T20:00:00Z",
+  "updated_at": "2026-11-25T20:39:15Z",
   "stations": [
     {
       "id": "cat-tr-trt-fm",
@@ -10,16 +10,21 @@
       "language": "turkish",
       "website": "https://radyo.trt.net.tr",
       "logo_url": "https://radyo.trt.net.tr/favicon.ico",
-      "tags": ["pop", "turkish"],
+      "tags": [
+        "pop",
+        "turkish"
+      ],
       "streams": [
         {
           "url": "https://trt.radyotvonline.net/trtfm",
           "priority": 1,
           "bitrate": 128,
-          "codec": "MP3",
+          "codec": "AAC",
           "status": "ok",
           "source": "catalog",
-          "consecutive_failures": 0
+          "consecutive_failures": 0,
+          "last_checked_at": "2026-11-25T20:39:15Z",
+          "last_success_at": "2026-11-25T20:39:15Z"
         },
         {
           "url": "https://radio-trtfm.live.trt.com.tr/master.m3u8",
@@ -28,7 +33,9 @@
           "codec": "AAC",
           "status": "ok",
           "source": "catalog",
-          "consecutive_failures": 0
+          "consecutive_failures": 0,
+          "last_checked_at": "2026-11-25T20:39:15Z",
+          "last_success_at": "2026-11-25T20:39:15Z"
         }
       ]
     },
@@ -40,37 +47,21 @@
       "language": "turkish",
       "website": "https://radyo.trt.net.tr",
       "logo_url": "https://radyo.trt.net.tr/favicon.ico",
-      "tags": ["news", "talk"],
+      "tags": [
+        "news",
+        "talk"
+      ],
       "streams": [
         {
-          "url": "https://trt.radyotvonline.net/trtradyo1",
+          "url": "https://trt.radyotvonline.net/trt1",
           "priority": 1,
           "bitrate": 128,
-          "codec": "MP3",
+          "codec": "AAC",
           "status": "ok",
           "source": "catalog",
-          "consecutive_failures": 0
-        }
-      ]
-    },
-    {
-      "id": "cat-tr-trt-radyo-3",
-      "name": "TRT Radyo 3",
-      "country": "Turkey",
-      "country_code": "TR",
-      "language": "turkish",
-      "website": "https://radyo.trt.net.tr",
-      "logo_url": "https://radyo.trt.net.tr/favicon.ico",
-      "tags": ["classical", "jazz"],
-      "streams": [
-        {
-          "url": "https://trt.radyotvonline.net/trtradyo3",
-          "priority": 1,
-          "bitrate": 128,
-          "codec": "MP3",
-          "status": "ok",
-          "source": "catalog",
-          "consecutive_failures": 0
+          "consecutive_failures": 0,
+          "last_checked_at": "2026-11-25T20:39:15Z",
+          "last_success_at": "2026-11-25T20:39:15Z"
         }
       ]
     },
@@ -82,16 +73,21 @@
       "language": "turkish",
       "website": "https://radyo.trt.net.tr",
       "logo_url": "https://radyo.trt.net.tr/favicon.ico",
-      "tags": ["tsm", "turkish"],
+      "tags": [
+        "tsm",
+        "turkish"
+      ],
       "streams": [
         {
-          "url": "https://trt.radyotvonline.net/trtnagme",
+          "url": "https://rd-trtnagme.medya.trt.com.tr/master.m3u8",
           "priority": 1,
           "bitrate": 128,
-          "codec": "MP3",
+          "codec": "AAC",
           "status": "ok",
           "source": "catalog",
-          "consecutive_failures": 0
+          "consecutive_failures": 0,
+          "last_checked_at": "2026-11-25T20:39:15Z",
+          "last_success_at": "2026-11-25T20:39:15Z"
         }
       ]
     },
@@ -103,46 +99,21 @@
       "language": "turkish",
       "website": "https://radyo.trt.net.tr",
       "logo_url": "https://radyo.trt.net.tr/favicon.ico",
-      "tags": ["folk", "turkish"],
+      "tags": [
+        "folk",
+        "turkish"
+      ],
       "streams": [
         {
-          "url": "https://trt.radyotvonline.net/trtturku",
+          "url": "https://rd-trtturku.medya.trt.com.tr/master_128.m3u8",
           "priority": 1,
-          "bitrate": 128,
-          "codec": "MP3",
-          "status": "ok",
-          "source": "catalog",
-          "consecutive_failures": 0
-        }
-      ]
-    },
-    {
-      "id": "cat-tr-power-fm",
-      "name": "Power FM",
-      "country": "Turkey",
-      "country_code": "TR",
-      "language": "turkish",
-      "website": "https://www.powerapp.com.tr",
-      "logo_url": "",
-      "tags": ["pop", "hits"],
-      "streams": [
-        {
-          "url": "https://listen.powerapp.com.tr/powerfm/mpeg/icecast.audio",
-          "priority": 1,
-          "bitrate": 128,
-          "codec": "MP3",
-          "status": "ok",
-          "source": "catalog",
-          "consecutive_failures": 0
-        },
-        {
-          "url": "https://listen.powerapp.com.tr/powerfm/abr/playlist.m3u8",
-          "priority": 2,
           "bitrate": 128,
           "codec": "AAC",
           "status": "ok",
           "source": "catalog",
-          "consecutive_failures": 0
+          "consecutive_failures": 0,
+          "last_checked_at": "2026-11-25T20:39:15Z",
+          "last_success_at": "2026-11-25T20:39:15Z"
         }
       ]
     },
@@ -154,16 +125,47 @@
       "language": "turkish",
       "website": "https://www.powerapp.com.tr",
       "logo_url": "",
-      "tags": ["pop", "turkish"],
+      "tags": [
+        "pop",
+        "turkish"
+      ],
       "streams": [
         {
           "url": "https://listen.powerapp.com.tr/powerturk/mpeg/icecast.audio",
           "priority": 1,
           "bitrate": 128,
-          "codec": "MP3",
+          "codec": "AAC",
           "status": "ok",
           "source": "catalog",
-          "consecutive_failures": 0
+          "consecutive_failures": 0,
+          "last_checked_at": "2026-11-25T20:39:15Z",
+          "last_success_at": "2026-11-25T20:39:15Z"
+        }
+      ]
+    },
+    {
+      "id": "cat-tr-power-pop",
+      "name": "Power Pop",
+      "country": "Turkey",
+      "country_code": "TR",
+      "language": "turkish",
+      "website": "https://www.powerapp.com.tr",
+      "logo_url": "",
+      "tags": [
+        "pop",
+        "hits"
+      ],
+      "streams": [
+        {
+          "url": "https://listen.powerapp.com.tr/powerpop/128/chunks.m3u8",
+          "priority": 1,
+          "bitrate": 128,
+          "codec": "AAC",
+          "status": "ok",
+          "source": "catalog",
+          "consecutive_failures": 0,
+          "last_checked_at": "2026-11-25T20:39:15Z",
+          "last_success_at": "2026-11-25T20:39:15Z"
         }
       ]
     },
@@ -175,7 +177,10 @@
       "language": "turkish",
       "website": "https://www.powerapp.com.tr",
       "logo_url": "",
-      "tags": ["slow", "pop"],
+      "tags": [
+        "slow",
+        "pop"
+      ],
       "streams": [
         {
           "url": "https://listen.powerapp.com.tr/powerlove/mpeg/icecast.audio",
@@ -184,7 +189,9 @@
           "codec": "MP3",
           "status": "ok",
           "source": "catalog",
-          "consecutive_failures": 0
+          "consecutive_failures": 0,
+          "last_checked_at": "2026-11-25T20:39:15Z",
+          "last_success_at": "2026-11-25T20:39:15Z"
         }
       ]
     },
@@ -196,16 +203,355 @@
       "language": "turkish",
       "website": "https://www.kralmuzik.com.tr",
       "logo_url": "",
-      "tags": ["arabesk", "turkish"],
+      "tags": [
+        "arabesk",
+        "turkish"
+      ],
       "streams": [
         {
-          "url": "https://ssldyg.radyotvonline.com/smil/smil:kralfm.smil/playlist.m3u8",
+          "url": "https://dygedge2.radyotvonline.net/kralfm/playlist.m3u8",
           "priority": 1,
           "bitrate": 128,
           "codec": "AAC",
           "status": "ok",
           "source": "catalog",
-          "consecutive_failures": 0
+          "consecutive_failures": 0,
+          "last_checked_at": "2026-11-25T20:39:15Z",
+          "last_success_at": "2026-11-25T20:39:15Z"
+        },
+        {
+          "url": "https://ssldyg.radyotvonline.com/smil/smil:kralfm.smil/playlist.m3u8",
+          "priority": 2,
+          "bitrate": 128,
+          "codec": "AAC",
+          "status": "ok",
+          "source": "catalog",
+          "consecutive_failures": 0,
+          "last_checked_at": "2026-11-25T20:39:15Z",
+          "last_success_at": "2026-11-25T20:39:15Z"
+        }
+      ]
+    },
+    {
+      "id": "cat-tr-kral-pop",
+      "name": "Kral Pop",
+      "country": "Turkey",
+      "country_code": "TR",
+      "language": "turkish",
+      "website": "https://www.kralmuzik.com.tr",
+      "logo_url": "",
+      "tags": [
+        "pop",
+        "turkish"
+      ],
+      "streams": [
+        {
+          "url": "https://ssldyg.radyotvonline.com/smil/smil:kralpop.smil/playlist.m3u8",
+          "priority": 1,
+          "bitrate": 128,
+          "codec": "AAC",
+          "status": "ok",
+          "source": "catalog",
+          "consecutive_failures": 0,
+          "last_checked_at": "2026-11-25T20:39:15Z",
+          "last_success_at": "2026-11-25T20:39:15Z"
+        }
+      ]
+    },
+    {
+      "id": "cat-tr-joyturk",
+      "name": "JoyTürk",
+      "country": "Turkey",
+      "country_code": "TR",
+      "language": "turkish",
+      "website": "https://karnaval.com",
+      "logo_url": "",
+      "tags": [
+        "slow",
+        "pop"
+      ],
+      "streams": [
+        {
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/JOY_TURK_SC?/",
+          "priority": 1,
+          "bitrate": 128,
+          "codec": "MP3",
+          "status": "ok",
+          "source": "catalog",
+          "consecutive_failures": 0,
+          "last_checked_at": "2026-11-25T20:39:15Z",
+          "last_success_at": "2026-11-25T20:39:15Z"
+        }
+      ]
+    },
+    {
+      "id": "cat-tr-joy-fm",
+      "name": "Joy FM",
+      "country": "Turkey",
+      "country_code": "TR",
+      "language": "turkish",
+      "website": "https://karnaval.com",
+      "logo_url": "",
+      "tags": [
+        "slow",
+        "chill"
+      ],
+      "streams": [
+        {
+          "url": "http://27943.live.streamtheworld.com:3690/JOY_FMAAC_SC",
+          "priority": 1,
+          "bitrate": 64,
+          "codec": "AAC",
+          "status": "ok",
+          "source": "catalog",
+          "consecutive_failures": 0,
+          "last_checked_at": "2026-11-25T20:39:15Z",
+          "last_success_at": "2026-11-25T20:39:15Z"
+        }
+      ]
+    },
+    {
+      "id": "cat-tr-radyo-fenomen",
+      "name": "Radyo Fenomen",
+      "country": "Turkey",
+      "country_code": "TR",
+      "language": "turkish",
+      "website": "https://www.radyofenomen.com",
+      "logo_url": "",
+      "tags": [
+        "pop",
+        "hits"
+      ],
+      "streams": [
+        {
+          "url": "https://live.radyofenomen.com/fenomen/128/icecast.audio",
+          "priority": 1,
+          "bitrate": 128,
+          "codec": "AAC",
+          "status": "ok",
+          "source": "catalog",
+          "consecutive_failures": 0,
+          "last_checked_at": "2026-11-25T20:39:15Z",
+          "last_success_at": "2026-11-25T20:39:15Z"
+        }
+      ]
+    },
+    {
+      "id": "cat-tr-alem-fm",
+      "name": "Alem FM",
+      "country": "Turkey",
+      "country_code": "TR",
+      "language": "turkish",
+      "website": "https://www.alemfm.com",
+      "logo_url": "",
+      "tags": [
+        "pop",
+        "turkish"
+      ],
+      "streams": [
+        {
+          "url": "https://turkmedya.radyotvonline.net/alemfmaac",
+          "priority": 1,
+          "bitrate": 128,
+          "codec": "AAC",
+          "status": "ok",
+          "source": "catalog",
+          "consecutive_failures": 0,
+          "last_checked_at": "2026-11-25T20:39:15Z",
+          "last_success_at": "2026-11-25T20:39:15Z"
+        }
+      ]
+    },
+    {
+      "id": "cat-tr-best-fm",
+      "name": "Best FM",
+      "country": "Turkey",
+      "country_code": "TR",
+      "language": "turkish",
+      "website": "https://www.bestfm.com.tr",
+      "logo_url": "",
+      "tags": [
+        "pop",
+        "turkish"
+      ],
+      "streams": [
+        {
+          "url": "https://ssldyg.radyotvonline.com/best/bestfm.stream/playlist.m3u8",
+          "priority": 1,
+          "bitrate": 128,
+          "codec": "AAC",
+          "status": "ok",
+          "source": "catalog",
+          "consecutive_failures": 0,
+          "last_checked_at": "2026-11-25T20:39:15Z",
+          "last_success_at": "2026-11-25T20:39:15Z"
+        }
+      ]
+    },
+    {
+      "id": "cat-tr-super-fm",
+      "name": "Süper FM",
+      "country": "Turkey",
+      "country_code": "TR",
+      "language": "turkish",
+      "website": "https://karnaval.com",
+      "logo_url": "",
+      "tags": [
+        "pop",
+        "turkish"
+      ],
+      "streams": [
+        {
+          "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/SUPER2_SC?/",
+          "priority": 1,
+          "bitrate": 128,
+          "codec": "MP3",
+          "status": "ok",
+          "source": "catalog",
+          "consecutive_failures": 0,
+          "last_checked_at": "2026-11-25T20:39:15Z",
+          "last_success_at": "2026-11-25T20:39:15Z"
+        },
+        {
+          "url": "http://28993.live.streamtheworld.com:3690/SUPER_FMAAC_SC",
+          "priority": 2,
+          "bitrate": 64,
+          "codec": "AAC",
+          "status": "ok",
+          "source": "catalog",
+          "consecutive_failures": 0,
+          "last_checked_at": "2026-11-25T20:39:15Z",
+          "last_success_at": "2026-11-25T20:39:15Z"
+        }
+      ]
+    },
+    {
+      "id": "cat-tr-metro-fm",
+      "name": "Metro FM",
+      "country": "Turkey",
+      "country_code": "TR",
+      "language": "turkish",
+      "website": "https://karnaval.com",
+      "logo_url": "",
+      "tags": [
+        "pop",
+        "hits"
+      ],
+      "streams": [
+        {
+          "url": "http://29083.live.streamtheworld.com:3690/METRO_FMAAC_SC",
+          "priority": 1,
+          "bitrate": 64,
+          "codec": "AAC",
+          "status": "ok",
+          "source": "catalog",
+          "consecutive_failures": 0,
+          "last_checked_at": "2026-11-25T20:39:15Z",
+          "last_success_at": "2026-11-25T20:39:15Z"
+        }
+      ]
+    },
+    {
+      "id": "cat-tr-virgin-radio",
+      "name": "Virgin Radio Türkiye",
+      "country": "Turkey",
+      "country_code": "TR",
+      "language": "turkish",
+      "website": "https://karnaval.com",
+      "logo_url": "",
+      "tags": [
+        "pop",
+        "rock"
+      ],
+      "streams": [
+        {
+          "url": "http://22593.live.streamtheworld.com/VIRGIN_RADIO_SC",
+          "priority": 1,
+          "bitrate": 128,
+          "codec": "MP3",
+          "status": "ok",
+          "source": "catalog",
+          "consecutive_failures": 0,
+          "last_checked_at": "2026-11-25T20:39:15Z",
+          "last_success_at": "2026-11-25T20:39:15Z"
+        }
+      ]
+    },
+    {
+      "id": "cat-tr-ntv-radyo",
+      "name": "NTV Radyo",
+      "country": "Turkey",
+      "country_code": "TR",
+      "language": "turkish",
+      "website": "https://www.ntvradyo.com.tr",
+      "logo_url": "",
+      "tags": [
+        "news",
+        "talk"
+      ],
+      "streams": [
+        {
+          "url": "http://ntvrdwmp.radyotvonline.com/",
+          "priority": 1,
+          "bitrate": 128,
+          "codec": "MP3",
+          "status": "ok",
+          "source": "catalog",
+          "consecutive_failures": 0,
+          "last_checked_at": "2026-11-25T20:39:15Z",
+          "last_success_at": "2026-11-25T20:39:15Z"
+        }
+      ]
+    },
+    {
+      "id": "cat-tr-baba-radyo",
+      "name": "Baba Radyo",
+      "country": "Turkey",
+      "country_code": "TR",
+      "language": "turkish",
+      "website": "https://www.babaradyo.com",
+      "logo_url": "",
+      "tags": [
+        "arabesk",
+        "turkish"
+      ],
+      "streams": [
+        {
+          "url": "http://officialbabaradyo.radyotvonline.net/babaofficial",
+          "priority": 1,
+          "bitrate": 128,
+          "codec": "MP3",
+          "status": "ok",
+          "source": "catalog",
+          "consecutive_failures": 0,
+          "last_checked_at": "2026-11-25T20:39:15Z",
+          "last_success_at": "2026-11-25T20:39:15Z"
+        }
+      ]
+    },
+    {
+      "id": "cat-tr-radyo-turkuvaz",
+      "name": "Radyo Turkuvaz",
+      "country": "Turkey",
+      "country_code": "TR",
+      "language": "turkish",
+      "website": "https://www.radyoturkuvaz.com.tr",
+      "logo_url": "",
+      "tags": [
+        "pop",
+        "turkish"
+      ],
+      "streams": [
+        {
+          "url": "https://trkvz-radyolar.ercdn.net/radyoturkuvaz/playlist.m3u8",
+          "priority": 1,
+          "bitrate": 128,
+          "codec": "AAC",
+          "status": "ok",
+          "source": "catalog",
+          "consecutive_failures": 0,
+          "last_checked_at": "2026-11-25T20:39:15Z",
+          "last_success_at": "2026-11-25T20:39:15Z"
         }
       ]
     }
