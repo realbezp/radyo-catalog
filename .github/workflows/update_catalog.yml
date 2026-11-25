@@ -1,0 +1,36 @@
+name: Update Radio Stream Catalog
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  check-streams:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run stream health check and auto-repair
+        run: python3 scripts/check_streams.py
+
+      - name: Commit updated catalog if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet stations.json; then
+            echo "No catalog changes."
+          else
+            git add stations.json
+            git commit -m "chore(catalog): update stream health status"
+            git push
+          fi
